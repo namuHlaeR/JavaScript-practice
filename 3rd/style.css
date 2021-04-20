@@ -16,6 +16,11 @@ body {
     height: 25rem;
 }
 
+h1{
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
 .grass{
     margin: 0 auto;
     width: 65rem;
@@ -31,7 +36,6 @@ body {
     position: relative;
     top: 15rem;
     left: 3rem;
-    animation: jump 3s linear infinite;
 }
 
 .animation{
@@ -80,7 +84,7 @@ body {
     20%{
         opacity: 1;
     }
-    95%{
+    98%{
         opacity: 1;
     }
     100%{
