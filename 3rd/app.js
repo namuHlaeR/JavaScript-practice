@@ -1,7 +1,6 @@
 const character = document.getElementById("character-img");
 const object = document.getElementById("object-img");
 const score = document.getElementById("score");
-const scoreDisplay = document.getElementById("score");
 let counter = 0;
 
 //Geeting click action for jump
@@ -52,5 +51,3 @@ function scoreCounter(){
         counter++;
     }
 }
-
-scoreDisplay.innerHTML = counter;
