@@ -34,42 +34,41 @@ h1{
     width: 10rem;
     height: 10rem;
     position: relative;
-    top: 15rem;
+    top: 12rem;
     left: 3rem;
 }
 
-.animation{
-    animation: jump 3s linear;
+.animate{
+    animation: jump 1.5s linear;
 }
 
-#object{
-    height: 5rem;
-    width: 6rem;
-    position: relative;
-    top: 10.5rem;
-    animation: block 3s linear infinite;
-    overflow: hidden;
+.hidden{
+    display: none;
+    border: 1px soldid red;
+
 }
 
 #object-img{
     position: relative;
     height: 5rem;
     width: 6rem;
+    top: 7.1rem;
+    animation: block 3s linear infinite;
     
 }
 
 @keyframes jump {
     0%{
-        top: 15rem;
+        top: 12.3rem;
     }
     30%{
-        top: 11rem;
+        top: 7rem;
     }
     70%{
-        top: 11rem;
+        top: 7rem;
     }
     100%{
-        top: 15rem;
+        top: 12.3rem;
     }
 }
 
