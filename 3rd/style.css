@@ -18,7 +18,8 @@ body {
 
 h1{
     font-size: 3rem;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .grass{
@@ -90,4 +91,24 @@ h1{
         opacity: 0;
         left: 0.5rem;
     }
+}
+
+#info-frame{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#start{
+    height: 3rem;
+    width: 5rem;
+    border-radius: 0.6rem;
+    background-color: transparent;
+    border: blueviolet 1px dashed;
+    color:blueviolet;
+}
+
+#start:hover{
+    background-color: blueviolet;
+    color: white;
 }

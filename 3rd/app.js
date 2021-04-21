@@ -1,6 +1,7 @@
 const character = document.getElementById("character-img");
 const object = document.getElementById("object-img");
 const score = document.getElementById("score");
+const scoreDisplay = document.getElementById("score");
 let counter = 0;
 
 //Geeting click action for jump
@@ -16,7 +17,6 @@ document.body.addEventListener("click", function jump(){
     }, 2000);
 });
 
-
 //Checking if we git the obstacle
 const survival = setInterval( function() {
 
@@ -31,7 +31,7 @@ const survival = setInterval( function() {
 //Reseting the counter
         counter = 0
         }
-    //Point counter
+//Point counter
         else{
             scoreCounter(score.innerHTML = Math.floor(counter / 100));
        }
@@ -42,7 +42,7 @@ function scoreCounter(){
     let characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
     let objectLeft = parseInt(window.getComputedStyle(object).getPropertyValue("left"));
 
-    //Setting counting point
+//Setting counting point
     if(objectLeft < 20 && objectLeft >- 20 && characterTop >= 130){
     }
 
@@ -52,3 +52,5 @@ function scoreCounter(){
         counter++;
     }
 }
+
+scoreDisplay.innerHTML = counter;
