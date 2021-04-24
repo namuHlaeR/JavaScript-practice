@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(230,187,173, .7);
+    height: 100%;
+    }
+
+h1{
+    color: cadetblue;
+    margin: 1.5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+canvas{
+    margin: 3rem;
+    background-color: rgba(173,216,230, .3);
+    box-shadow: 0 0 25px 8px rgba(173, 216, 230, .4);
+}
+
+.infoBlock{
+    position: relative;
+    width: 75%;
+    margin: 3rem auto;
+}
+
+h2{
+   font-size: 1.8rem;
+    margin: 0 0 1rem 0;
+    color: rgb(68,32,21);
+}
+
+p{
+    font-size: 1rem;
+    color: rgb(68,32,21);
+}
+
+h4{
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 2rem;
+}

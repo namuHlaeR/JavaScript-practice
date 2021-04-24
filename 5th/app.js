@@ -14,7 +14,7 @@ async function chartIt(){
         data: {
             labels: xlabels,
             datasets: [{
-                label: 'Global average temperature',
+                label: '',
                 data: ytemps,
                 fill: false,
                 backgroundColor: 
@@ -25,20 +25,7 @@ async function chartIt(){
             }
         ]
     },
-    options: {
-        scale: {
-            yAxes: [
-                {
-                    ticks: {
-                        callback: function(value, index, value) {
-                            return value + 'C';
-                        }
-                    }
-                }
-            ]
-        }
-    }
- });
+    });
 };
 
 //Fetch the data from.csv file
